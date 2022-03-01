@@ -2,27 +2,33 @@
   "blogs": [
     {
       "title": "Squirrel in my house",
-      "body": "Last night a squirrel came into my house. I'm nervous.",
-      "author": "George",
+      "content": "Last night a squirrel came into my house. I'm nervous.",
+      "author": "david",
       "id": 1
     },
     {
       "title": "It has not gone",
-      "body": "When I woke, the squirrel was still there.",
-      "author": "George",
+      "content": "When I woke, the squirrel was still there.",
+      "author": "david",
       "id": 2
     },
     {
       "title": "Staring at me",
-      "body": "I entered the room to usher it out, but it just stared at me.",
-      "author": "George",
+      "content": "I entered the room to usher it out, but it just stared at me.",
+      "author": "david",
       "id": 3
     },
     {
       "title": "We are friends",
-      "body": "After much staring, I have befriended the squirrel.",
-      "author": "George",
+      "content": "After much staring, I have befriended the squirrel.",
+      "author": "david",
       "id": 4
+    },
+    {
+      "title": "Where has it gone",
+      "content": "The squirrel has left my house",
+      "author": "david",
+      "id": 5
     }
   ]
 }

@@ -66,3 +66,42 @@ a {
   border-radius: 8px;
   cursor: pointer;
 }
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 24px;
+  color: darkslategray;
+  margin-bottom: 16px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 8px 12px;
+  margin: 8px 0;
+  border: 2px solid coral;
+  box-sizing: border-box;
+  display: block;
+  color: darkslategray;
+}
+.create option {
+  color: darkslategray;
+}
+.create button {
+  background-color: coral;
+  color: darkslategray;
+  transition: all 0.3;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.create button:hover {
+  background-color: darkslategray;
+  color: gainsboro;
+}
