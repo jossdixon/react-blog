@@ -1,13 +1,25 @@
-const Home = () => {
+import { useState, useEffect } from 'react';
+import BlogList from './BlogList';
 
-  const handleClick = () => {
-    console.log('pow');
+const Home = () => {
+  const [blogs, setBlogs] = useState([
+
+  ]);
+
+  const [name, setName] = useState('Pete');
+
+  const handleDelete = (id) => {
+    const newBlogs = blogs.filter(blog => blog.id !== id);
+    setBlogs(newBlogs);
   }
+
+  useEffect(() => {
+    console.log(name);
+  }, [name]);
 
   return (
     <div className="home">
-      <h1>Homepage</h1>
-      <button onClick={handleClick}>Click me!</button>
+      <BlogList blogs={ blogs } title="The Blogs" handleDelete={handleDelete} />
     </div>
    );
 }

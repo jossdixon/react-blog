@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Squirrel in my house",
+      "body": "Last night a squirrel came into my house. I'm nervous.",
+      "author": "George",
+      "id": 1
+    },
+    {
+      "title": "It has not gone",
+      "body": "When I woke, the squirrel was still there.",
+      "author": "George",
+      "id": 2
+    },
+    {
+      "title": "Staring at me",
+      "body": "I entered the room to usher it out, but it just stared at me.",
+      "author": "George",
+      "id": 3
+    },
+    {
+      "title": "We are friends",
+      "body": "After much staring, I have befriended the squirrel.",
+      "author": "George",
+      "id": 4
+    }
+  ]
+}

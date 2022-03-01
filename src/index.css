@@ -4,6 +4,7 @@
   margin: 0;
   font-family: 'Asap';
   color: darkslategray;
+  background-color: gainsboro;
 }
 .navbar {
   padding: 20px;
@@ -31,4 +32,19 @@
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+}
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 2px solid coral;
+}
+.blog-preview:hover {
+  border-bottom: 2px solid darkslategray;
+}
+.blog-preview h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.blog-list {
+  padding: 24px;
 }
