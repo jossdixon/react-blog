@@ -14,7 +14,7 @@ const Create = () => {
 
     setIsPending(true);
 
-    fetch('https://dixon-blog-api.herokuapp.com/posts', {
+    fetch('https://dixon-blog-api.herokuapp.com/api/version1/posts', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog)
