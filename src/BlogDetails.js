@@ -3,11 +3,11 @@ import useFetch from './useFetch';
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const { data: blog, error, isPending } = useFetch('https://dixon-blog-api.herokuapp.com/api/version1/posts' + id);
+  const { data: blog, error, isPending } = useFetch('https://dixon-blog-api.herokuapp.com/api/version1/posts/' + id);
   const history = useHistory();
 
   const handleClick = () => {
-    fetch('https://dixon-blog-api.herokuapp.com/api/version1/posts' + blog.id, {
+    fetch('https://dixon-blog-api.herokuapp.com/api/version1/posts/' + blog.id, {
       method: 'DELETE'
     }).then(() => {
       history.push('/')
