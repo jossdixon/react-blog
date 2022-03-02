@@ -1,34 +1,28 @@
 {
   "blogs": [
     {
-      "title": "Squirrel in my house",
-      "content": "Last night a squirrel came into my house. I'm nervous.",
-      "author": "david",
+      "title": "Finding a city",
+      "content": "Think of London, a small city, it's dark, dark in the daytime, the people sleep, sleep in the daytime if they want to.",
+      "author": "David",
       "id": 1
     },
     {
-      "title": "It has not gone",
-      "content": "When I woke, the squirrel was still there.",
-      "author": "david",
+      "title": "French",
+      "content": "Ce que j'ai fais, ce soir la, ce qu'elle a dit, ce soir la, realisant mon espoir, je me lance, vers la gloire, OK.",
+      "author": "Tina",
       "id": 2
     },
     {
-      "title": "Staring at me",
-      "content": "I entered the room to usher it out, but it just stared at me.",
-      "author": "david",
+      "title": "Don't worry",
+      "content": "I see the clouds that move across the sky, I see the wind that moves the clouds away, it moves the clouds over by the building, I pick the building that I want to live in.",
+      "author": "David",
       "id": 3
     },
     {
-      "title": "We are friends",
-      "content": "After much staring, I have befriended the squirrel.",
-      "author": "david",
+      "title": "I Zimbra",
+      "content": "Gadji beri bimba clandridi, lauli lonni cadori gadjam, A bim beri glassala glandride, E glassala tuffm I zimbra.",
+      "author": "David",
       "id": 4
-    },
-    {
-      "title": "Where has it gone",
-      "content": "The squirrel has left my house",
-      "author": "david",
-      "id": 5
     }
   ]
 }
